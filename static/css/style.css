@@ -1,0 +1,144 @@
+html {
+scroll-behavior: smooth;
+
+}
+
+body {
+background-color: blue;
+}
+a {
+color: white;
+
+}
+
+nav {
+    padding: 12px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    }
+    
+    main {
+        padding: 150px;
+        color: tomato;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    }
+    
+    nav ul li {
+    position: relative;
+    }
+    
+    nav ul li ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    }
+    
+    nav ul li a {
+    display: block;
+    min-width: 150px;
+    padding: 7px 4px;
+    margin-right: 5px;
+    background-color: #393939;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    nav ul li a:hover {
+    color: #2cc1d9;
+    }
+    nav ul ul {
+    list-style-type: none;
+    position: absolute;
+    left: -9999px;
+    }
+    nav ul ul li {
+    float: none;
+    }
+    nav ul ul li a {
+    background-color: rgba(108,210,221,1.00);
+    min-width: 200px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    padding: 7px 2px;
+    text-decoration: none;
+    font-size: .8em;
+    }
+    nav ul ul li a:hover {
+    color: #393939;
+    }
+    nav ul li:hover ul {
+    left: 0px;
+    }
+
+    .sec1 {
+        width: 100%;
+        height: 20%;
+    
+        padding: 8% 0;
+        background-size: auto;
+    }
+    
+    .sec2 {
+        width: 100%;
+        height: 0%;
+      
+        
+    }
+    .sec2 p{
+        font-size: 24px;
+         
+    }
+    
+    .sec3 {
+        width: 100%;
+        height: 0%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        background-image: url();
+        
+    }
+    
+    .sec3 p{
+    font-size: 24px;   
+    font-family: 'Times New Roman', Times, serif; 
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-top: 15px;
+    
+    }
+    .sec5 {
+        width: 100%;
+        height: 0%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding-top: 2%;
+        padding-bottom: 15%;
+        background-color: lightblue;
+    }
+    
+    
+    .sec6 {
+        width: 100%;
+        height: 0%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding-top: 2%;
+        padding-bottom: 10%;
+        text-align: center;
+        background-color: lightgray;
+    }
