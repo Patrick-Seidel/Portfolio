@@ -57,16 +57,7 @@ nav {
     nav ul ul li {
     float: none;
     }
-    nav ul ul li a {
-    background-color: rgba(108,210,221,1.00);
-    min-width: 200px;
-    color: #fff;
-    border: 1px solid #fff;
-    display: block;
-    padding: 7px 2px;
-    text-decoration: none;
-    font-size: .8em;
-    }
+    
   
 
     .sec1 {
