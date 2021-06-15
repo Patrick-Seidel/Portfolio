@@ -1,4 +1,4 @@
 # Portfolio
 
 Versuche einer Homepage und sie auf github hochzuladen aber nur mit einem Master Branch.
-Hatte keine Lust noch ein Branch zu erstllen. Ist aber kein Problem, weil ih allein daran arbeite.
+Hatte keine Lust noch ein Branch zu erstllen. Ist aber kein Problem, weil ich allein daran arbeite.
