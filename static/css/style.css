@@ -33,14 +33,14 @@ nav.up {
     text-align: right;
     }
 
-    nav ul {
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 2;
     }
     
     
-    nav ul li a {
+nav ul li a {
     display: block;
     text-align: left;
     margin: 0 auto;   
@@ -53,31 +53,31 @@ nav.up {
     font-weight: bold
     }
 
-    nav ul li a:hover {
+nav ul li a:hover {
         box-shadow: 5px 5px 5px 5px rgb(16, 204, 32);
     }
 
-    ul.Beruf {
-        text-align: left;
+ul.Beruf {
+        text-align: center;
         font-size: 15x;
         list-style-type: none;
         margin: 0;
        
     }
   
-    .fett {
+.fett {
         font-weight: bold
 
     }
 
-    .sec1 {
+.sec1 {
         margin: auto;
         width: 80%;
         padding: 25px;
         background-color: white;
     }
     
-    .sec{
+.sec{
         margin: auto;
         width: 80%;
         padding: 25px;
