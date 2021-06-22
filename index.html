@@ -1,66 +1,108 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Seidel">
+    <meta name="publisher" content="Patrick Seidel">
+    <meta name="copyright" content="Patrick Seidel">
+    <meta name="description" content="Portfolio Homepage von Patrick Seidel">
+    <meta name="keywords" content="Patrick, Seidel, Webdev, Web, Developer">
+    <meta name="page-topic" content="Dienstleistung">
+    <meta name="page-type" content="Private Homepage">
+    <meta name="audience" content="Alle">
+    <meta http-equiv="content-language" content="de">
+    <meta name="robots" content="index, follow">
     <title>Html-Anfang</title>
     <link rel="stylesheet" href="./static/css/style.css"> <!--link:css-->
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="#home">Lebenslauf</a> </li>
-        
-          <li><a href="#nav1">Portfolio</a>
-               </li>
-          <li><a href="#nav3">Skills</a>
-                     </li>
-          <li><a href="#nav5">Kontakt</a>
-                         </li>
-          <li><a href="#nav4">Projekte</a>
-          </li>
-        </ul>
-      </nav>   
-      <section class="sec1" id="home"> <!--sec für Section-->
+
          <h1>Patrick Seidel</h1>
          <div>
-         <img src="./static/images/Octicons-mark-github.svg" height="50" width="50" alt="Github"><a href="https://github.com/Patrick-Seidel" target="_blank">Mein Github (@Patrick-Seidel)</a>
-        </div>
-        <div>
-            <img src="./static/images/tel.png" height="50" width="50" alt="Telefon"><a href="tel:+494054887219">Anrufen</a>
-        </div>
-        <div>
-            <img src="./static/images/apple-mail.png" height="50" width="50" alt="Mail"><a href="mailto:p.seidel.1987@gmail.com">Schick mich a Mail</a>
-        </div>
-        <div>
-            <img src="./static/images/www.png" height="50" width="50" alt="Homepage"><a href="http://wyv76t2ko.homepage.t-online.de/PatrickSeidel/index.html">Meine Homepage</a>
-        </div>
+            <figure id="top">
+                <img class="bild" id="Patrick" src="./static/images/Patrick.jpg" alt="Patrick Seidel">    
+            </figure>
+            
+            
     </section>
-    <section class="sec2" id="nav1">
-        
-        <h3>Portfolio</h3>   
-        <div>
-            <a href="./static/download/padlet-wd21_d02-2.pdf" download="Padlet.pdf">Padlet</a>
+    <section class="sec" >
+       
+        <nav>
+            <ul>
+              <li><a href="#home">Lebenslauf</a> </li><br>
+            
+              <li><a href="#nav1">Portfolio</a><br>
+                   </li>
+              <li><a href="#nav3">Skills</a><br>
+                         </li>
+              <li><a href="#nav5">Kontakt</a><br>
+                             </li>
+              <li><a href="#nav4">Projekte</a><br>
+              </li>
+            </ul>
+          </nav>
+          <nav class="up">
+            <a href="#top">^</a> 
+            </nav>
+          
+          <section class="sec" id="home">
+          <h2>Lebenslauf</h2>
+          <ul class="Beruf">
+    <li><div class="fett">Abitur</div> 2007</li>
+    <li><div class="fett">Studium Chemie</div> 2007-2010</li>
+    <li><div class="fett">Studium Informatik</div> 2010-2012</li>
+    <li><div class="fett">AWO Level-1-Support</div> 2012 - 2013</li>
+    <li><div class="fett">Div. Arbeiten</div> 2013 - 2017</li>
+    <li><div class="fett">Eigender Laden</div> 2017 - 2020</li>
+    </ul>
+ </section> 
+       
+ <section class="sec" id="nav1"></section>
+ <h2>Portfolio</h2>   
+        <div class="Port">
+           <a href="http://www.mimenki.eu" target="_blanc"> <img src="./static/images/1.png" alt="www.mimenki.eu"></a> 
+           <a href="http://www.wolf-entertainment.de" target="_blanc"><img src="./static/images/2.png" alt="Nickey Barker"></a>
+            <a href="http://t-online.de" target="_blanc"><img src="./static/images/3.png" alt="Patrick Seidel"></a>
           </div>
         </section>
     
     
-        <section class="sec3" id="nav3">
-            <h3> Skills<br> </h3>
-          
+        <section class="sec" id="nav3">
+            <h2> Skills<br> </h2>
+          <div class="skill">
+              <img src="./static/images/skills1.png" alt="">
+          </div>
         </section>
               
-        <section class="sec5" id="nav5">
-            <h3>Kontakt</h3>
-        <p>
-          <section>
+        <section class="sec" id="nav5">
+            <h2>Kontakt</h2>
+            <a href="https://github.com/Patrick-Seidel"><img src="./static/images/Octicons-mark-github.svg" height="50" width="50" alt="Github"></a>
+        </div>
+        <div>
+            <a href="tel:+494054887219"><img src="./static/images/tel.png" height="50" width="50" alt="Telefon"></a>
+        </div>
+        <div>
+            <a href="mailto:p.seidel.1987@gmail.com"><img src="./static/images/apple-mail.png" height="50" width="50" alt="Mail"></a>
+        </div>
+        <div>
+            <a href="http://wyv76t2ko.homepage.t-online.de/PatrickSeidel/index.html"><img src="./static/images/www.png" height="50" width="50" alt="Homepage"></a>
+        </div>
+        </section>
      
-        <section class="sec4" id="nav4">
-            <h3> Projekte<br> </h3>
-
+        <section class="sec" id="nav4">
+            <h2> Projekte<br> </h2>
+            <div>Ausbildung beim DCI</div>
+            <div>Point and Click Adventure mit Unity</div>
+     <br><br><br><br>    
         </section>
 
-
+        <footer class="sec">
+            <article>
+             <p>© Patrick Seidel • Tel:040/54887219 • E-Mail:P.Seidel.1987@gmail.com • Nienredder 10c • 22527 Hamburg</p>
+          </article>
+          
+          </footer>
     </body>
-</html>
