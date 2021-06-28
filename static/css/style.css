@@ -1,25 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
 text-align: center;
-font-size: 1,5rem;
+font-size: 1rem;
 }
 
 h1 {
     text-transform: uppercase;
     margin: 5%;
-    font-size: 2.5em;
+    font-size: 2em;
     
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 2em;
-    margin: 1em;
-    font-size: 1,5em;
+    font-size: 30px;
+    margin: 20px;
+    font-size: 1.5em;
 }
 
 a {
@@ -53,7 +53,7 @@ nav ul li a {
     color: black;
     box-shadow: 5px 5px 5px 5px blue;
     text-decoration: none;
-    max-width: 50vw;
+    max-width: 20em;
     text-transform: uppercase;
     font-weight: bold
     }
@@ -78,20 +78,21 @@ ul.Beruf {
 .sec1 {
         margin: auto;
         width: 80%;
-        padding: 5em;
+        padding: 1.5em;
         background-color: white;
     }
     
 .sec{
         margin: auto;
         width: 80%;
-        padding: 5em;
+        padding: 1.5em;
          background-color: white;
             
     }
    
 
 div figure img {
+        display: inline-block;
         border-radius: 50%;
         width: 15em;
         height: 15em;
@@ -100,7 +101,7 @@ div figure img {
 
     
 div.Port img {
-width: 60vw;
+width: 90%;
 }
 
 .gradient {
@@ -142,5 +143,4 @@ footer  {
     font-weight: bold;
     color: black;
 }
-
 
