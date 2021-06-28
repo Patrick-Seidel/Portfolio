@@ -1,22 +1,25 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
 text-align: center;
+font-size: 1,5rem;
 }
 
 h1 {
     text-transform: uppercase;
     margin: 5%;
-    font-size: 200%;
+    font-size: 2.5em;
+    
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 30px;
-    margin: 20px;
+    font-size: 2em;
+    margin: 1em;
+    font-size: 1,5em;
 }
 
 a {
@@ -24,13 +27,16 @@ a {
 
 }
 nav.up {
-    padding: 10px;
     position: fixed;
+    right: 1%;
+    bottom: 25%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
     margin: 0; 
-    background-color: #00e1ff;
+    background-color: red;
     color: black;
-    box-shadow: 5px 5px 5px 5px blue;
-    text-align: right;
+    text-decoration: none;
     }
 
 nav ul {
@@ -48,7 +54,7 @@ nav ul li a {
     color: black;
     box-shadow: 5px 5px 5px 5px blue;
     text-decoration: none;
-    max-width: 300px;
+    max-width: 50vw;
     text-transform: uppercase;
     font-weight: bold
     }
@@ -59,7 +65,7 @@ nav ul li a:hover {
 
 ul.Beruf {
         text-align: center;
-        font-size: 15x;
+        font-size: 1em;
         list-style-type: none;
         margin: 0;
        
@@ -73,42 +79,72 @@ ul.Beruf {
 .sec1 {
         margin: auto;
         width: 80%;
-        padding: 25px;
+        padding: 5em;
         background-color: white;
     }
     
 .sec{
         margin: auto;
         width: 80%;
-        padding: 25px;
+        padding: 5em;
          background-color: white;
             
     }
    
 
 div figure img {
-        display: inline-block;
         border-radius: 50%;
-        width: 250px;
-        height: 250px;
+        width: 15em;
+        height: 15em;
     }
 
 
     
 div.Port img {
-width: 90%;
+width: 60vw;
 }
 
-div.skill img {
-    width: 250px;
-    }
+.gradient {
+    background-color: #ff8a00;
+    background-image: conic-gradient(lime 40%, yellow 0 70%, red 0 30%);
+    border-radius: 50%;
+    height: 15em;
+    margin: auto;
+    width: 15em;
+  }
+.Legende{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: lime;
+
+}
+.Legende1{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: red;
+
+}
+.Legende2{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: yellow;
+
+}
 
 footer  {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 0.5em;
     bottom: 0;
     text-align: center;
-    padding: 10px;
+    padding: 1em;
     font-weight: bold;
     color: black;
+}
+
+.KonBil {
+
+    
 }
