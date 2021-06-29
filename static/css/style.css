@@ -1,25 +1,38 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
+
+    
 }
 
+
+
 body {
-text-align: center;
-font-size: 1rem;
+   
+     text-align:center;
+    font-size: 1rem;
+    width: 100vw; 
+    height: 100vh;
+    background-image: url(../images/hitech.jpg);
+    background-size:cover; 
+    background-repeat: repeat;
+    color: seashell;
 }
+
 
 h1 {
     text-transform: uppercase;
     margin: 5%;
-    font-size: 2em;
+    font-size: 3.5em;
     
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 30px;
-    margin: 20px;
-    font-size: 1.5em;
+    font-size: 3em;
+    margin: 1em 0;
+    
 }
 
 a {
@@ -64,7 +77,7 @@ nav ul li a:hover {
 
 ul.Beruf {
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
         list-style-type: none;
         margin: 0;
        
@@ -79,17 +92,23 @@ ul.Beruf {
         margin: auto;
         width: 80%;
         padding: 1.5em;
-        background-color: white;
+        font-family: 'Abril Fatface', cursive;
+
     }
     
 .sec{
         margin: auto;
         width: 80%;
         padding: 1.5em;
-         background-color: white;
-            
+        font-family: 'Abril Fatface', cursive;
+
     }
-   
+.sec2{
+        margin: auto;
+        width: 80%;
+        padding: 1.5em;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 
 div figure img {
         display: inline-block;
@@ -101,7 +120,7 @@ div figure img {
 
     
 div.Port img {
-width: 90%;
+width: 60%;
 }
 
 .gradient {
@@ -111,12 +130,14 @@ width: 90%;
     height: 15em;
     margin: auto;
     width: 15em;
+    color: black;
   }
 .Legende{
     display: inline-block;
     height: auto;
     width: auto;
     background-color: lime;
+    color: black;
 
 }
 .Legende1{
@@ -124,6 +145,7 @@ width: 90%;
     height: auto;
     width: auto;
     background-color: red;
+    color: black;
 
 }
 .Legende2{
@@ -131,6 +153,7 @@ width: 90%;
     height: auto;
     width: auto;
     background-color: yellow;
+    color: black;
 
 }
 
@@ -141,6 +164,69 @@ footer  {
     text-align: center;
     padding: 1em;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
+.leiste {
+    padding: 0.2rem;
+    height: 2rem;
+    background: #ecf0ea;
+    border: grey 2px solid;
+}
+
+.leiste > span {
+    display: block;
+    height: 100%;
+    background-color: #1444c7;
+   
+}
+
+
+#span1 {
+    width: 60%;
+}
+
+#span2 {
+    width: 8%;
+}
+#span3 {
+    width: 80%;
+}
+
+.KonBil a {
+    font-size: 1.5em;
+    color: snow;
+    text-decoration: none;
+}
+.KonBil a i {
+    font-size: 1.5rem;
+    color: linear-gradient(50deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%)
+       
+}
+
+.KonBil {
+    margin: auto;
+    display: inline-block;
+}
+
+.lici {
+    list-style-type: none;
+    text-align: left;
+}
+
+.Portimg {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;    font-size: 1em;
+    font-size: 3em;
+}
+
+.Portimg:hover {
+    color: yellow;
+    font-family: 'Dancing Script', cursive;    font-size: 1em;
+    font-size: 3em;
+}
+
+.section {
+    max-width: 80%;
+    display: inline-block;
+}
