@@ -41,7 +41,7 @@ a {
 }
 nav.up {
     position: fixed;
-    right: 1%;
+    right: 10%;
     bottom: 25%;
     width: 1em;
     height: 1em;
@@ -60,13 +60,13 @@ nav ul {
     
 nav ul li a {
     display: block;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;   
     background-color: #00e1ff;
     color: black;
     box-shadow: 5px 5px 5px 5px blue;
     text-decoration: none;
-    max-width: 20em;
+    max-width: 30em;
     text-transform: uppercase;
     font-weight: bold
     }
