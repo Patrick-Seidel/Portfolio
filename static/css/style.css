@@ -3,7 +3,6 @@
     padding: 0px;
     text-decoration: none;
 
-    
 }
 
 
@@ -15,8 +14,7 @@ body {
     width: 100vw; 
     height: 100vh;
     background-image: url(../images/hitech.jpg);
-    background-size:cover; 
-    background-repeat: repeat;
+    background-size: cover; 
     color: seashell;
 }
 
@@ -115,12 +113,16 @@ div figure img {
         border-radius: 50%;
         width: 15em;
         height: 15em;
+        border: 0.5em solid blue;
     }
 
 
     
 div.Port img {
 width: 60%;
+border: 0.7em solid blue;
+border-radius: 25% 0%;
+
 }
 
 .gradient {
@@ -138,6 +140,7 @@ width: 60%;
     width: auto;
     background-color: lime;
     color: black;
+    padding: 1em;
 
 }
 .Legende1{
@@ -146,6 +149,7 @@ width: 60%;
     width: auto;
     background-color: red;
     color: black;
+    padding: 1em;
 
 }
 .Legende2{
@@ -154,6 +158,16 @@ width: 60%;
     width: auto;
     background-color: yellow;
     color: black;
+    padding: 1em;
+
+}
+.Legende4{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    color: white;
+    padding: 1em;
 
 }
 
