@@ -68,8 +68,7 @@
  <h2>Portfolio</h2>   
         <div class="Port">
            <a href="http://www.mimenki.eu" target="_blanc"> <img src="./static/images/1.png" alt="www.mimenki.eu"><br><br><span class="Portimg">Mimenki.eu</span></a><br><br>
-           <a href="http://www.wolf-entertainment.de" target="_blanc"><img src="./static/images/2.png" alt="Nickey Barker"><br><br><span class="Portimg">Leitwolf Nickey Barker</span></a><br><br>
-            <a href="http://t-online.de" target="_blanc"><img src="./static/images/3.png" alt="Patrick Seidel"><br><br><span class="Portimg">Meine alte Homepage</span></a>
+            <a href="http://wyv76t2ko.homepage.t-online.de/PatrickSeidel/index.html" target="_blanc"><img src="./static/images/3.png" alt="Patrick Seidel"><br><br><span class="Portimg">Meine alte Homepage</span></a>
           </div>
         </section>
     
@@ -122,6 +121,59 @@
             <li><a href="http://wyv76t2ko.homepage.t-online.de/PatrickSeidel/index.html" target="_blanc"><i class="fas fa-house-user"></i><span> Homepage</span></a></li>
             <li><a href="https://github.com/Patrick-Seidel/" target="_blanc"><i class="fab fa-github-square"></i><span> Patrick-Seidel</span></a></li>
         </ul>
+        <form method="POST" action="https://formspree.io/f/xzbyvqbd">
+            <fieldset class="Persoda"> <legend>Personal Daten</legend>
+            
+                <label for="fn"><span>First name:</span></label>
+                <input type="text" name="firstname" id="fn" required placeholder="Vorname">
+        
+                <label for="ln"><span>Last name:</span></label> 
+                <input type="text" name="lastname" id="ln" required placeholder="nachnahme">
+        
+                <label for="street"><span>Street:</span></label> 
+                <input type="text" name="street" id="street" required placeholder="Strasse">
+               
+                <label for="zip"><span>Zipcode:</span></label> 
+                <input type="text" name="zip" id="zip" required placeholder="PLZ">
+        
+                <label for="city"><span>City:</span></label> 
+                <input type="text" name="city" id="city" required placeholder="Stadt">
+        
+                <label for="Phone"><span>Phone:</span></label>
+                <input type="text" name="phone" id="phone" required placeholder="Telefon">
+               
+                <label for="email"><span>E-mail address:</span></label> 
+                <input type="email" name="_replyto" id="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        
+                <label for="mssg"><span>Textfeld</span></label>
+                <textarea name="message" id="mssg" placeholder="Bitte hier Text eingeben"></textarea>
+        
+                
+            </fieldset>
+            <fieldset> 
+                <legend>Products</legend>
+                <div></div>
+               
+                <div class="Checkbox">
+                    <h3>Web Design:</h3>
+                  
+                <label for="Individual">Individual</label>
+                    <input type="radio" name="Webdesign" id="Individual" value="Individual">
+                    <label for="Template">Template</label>
+                    <input type="radio" name="Webdesign" id="Template" value="Template">
+                    <h3>Web Development:</h3>
+                  
+                    <label for="html">HTML & CSS</label>
+                        <input type="radio" name="Webdev" id="html" value="html">
+                        <label for="Javascript">Javascript</label>
+                        <input type="radio" name="Webdev" id="Javascript" value="Javascript">
+                       
+                 
+           </select>
+          
+            </fieldset>
+            <button type="submit">… und ab geht die Post!</button>
+           </form>
         </section>
      
         <section class="sec" id="nav4">
